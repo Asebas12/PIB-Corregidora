@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.87">
+    <title>PIB Corregidora</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="body-home">
+
+    <div id="header-placeholder"></div>
+
+<section class="home-hero">
+    <div class="home-hero-content">
+        <h2>Bienvenidos a PIB Corregidora</h2>
+        <a href="about.html" class="btn">Conócenos</a>
+    </div>
+</section>
+
+<section class="video-content-section">
+    <div class="video-layout">
+        <div class="video-section">
+            <video width="100%" autoplay muted loop playsinline>
+            <source src="Images/Welcome.mp4" type="video/mp4">
+            </video>
+        </div>
+        <div class="content-section">
+            <h2>¡Bienvenidos!</h2>
+            <p>En PIB Corregidora, nuestra pasión es vivir una fe activa. Te damos la bienvenida a una comunidad que ama a Dios y sirve con alegría a los demás. Aquí siempre hay un lugar para ti, una palabra de esperanza y una oportunidad para transformar el mundo juntos.</p>
+        </div>
+    </div>
+</section>
+
+<section class="photo-carousel-section">
+    <div class="carousel-layout">
+        <div class="text-section">
+            <h2>Comunidad</h2>
+            <p>En PIB Corregidora, promovemos la convivencia y amistad entre los miembros de la iglesia. Buscamos gener un buen grupo de apoyo y de confianza.</p>
+        </div>
+        <div class="carousel-container">
+            <div class="carousel-slide">
+                <img src="Images/1.jpg" alt="Photo 1">
+                <img src="Images/2.jpg" alt="Photo 2">
+                <img src="Images/3.jpg" alt="Photo 3">
+                <img src="Images/4.jpg" alt="Photo 4">
+                <img src="Images/5.jpg" alt="Photo 5">
+                <img src="Images/6.jpg" alt="Photo 6">
+                <img src="Images/7.jpg" alt="Photo 7">
+            </div>
+            <button class="prev-btn" onclick="prevSlide()">&#10094;</button>
+            <button class="next-btn" onclick="nextSlide()">&#10095;</button>
+        </div>
+    </div>
+    <div class="carousel-indicators">
+        <span class="indicator" onclick="currentSlide(1)"></span>
+        <span class="indicator" onclick="currentSlide(2)"></span>
+        <span class="indicator" onclick="currentSlide(3)"></span>
+        <span class="indicator" onclick="currentSlide(4)"></span>
+        <span class="indicator" onclick="currentSlide(5)"></span>
+        <span class="indicator" onclick="currentSlide(6)"></span>
+        <span class="indicator" onclick="currentSlide(7)"></span>
+    </div>
+</section>
+
+<section class="ministry-content-layout">
+    <div class="image-layout">
+        <div class="image-section">
+            <img src="Images/childrens.jpg" alt="Niños y adolescentes en el ministerio">
+        </div>
+        <div class="text-image-section">
+            <h2>Ministerio de Niños y Adolescentes</h2>
+            <p>En PIB Corregidora, nuestro ministerio para niños y adolescentes (edades 3-17 años) está diseñado para fomentar el crecimiento espiritual, la amistad y el aprendizaje de la Palabra de Dios en un ambiente divertido y seguro.</p>
+            <h3>Grupos por Edad:</h3>
+            <ul>
+                <li><strong>Niños (3-11 años):</strong> Historias bíblicas, juegos, manualidades y canciones para aprender sobre Jesús.</li>
+                <li><strong>Adolescentes (12-17 años):</strong> Estudios bíblicos, actividades grupales y proyectos comunitarios.</li>
+            </ul>
+            <p>Únete a nosotros los domingos a las 11:00 A.M. ¡Todos son bienvenidos!</p>
+        </div>
+    </div>
+</section>
+
+        <div id="footer-placeholder"></div>
+
+        <script src="script.js"></script>
+    </body>
+</html>
